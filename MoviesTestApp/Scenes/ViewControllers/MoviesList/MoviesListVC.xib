@@ -21,10 +21,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jpT-r3-WmN">
-                    <rect key="frame" x="0.0" y="203" width="414" height="500"/>
+                    <rect key="frame" x="0.0" y="193" width="414" height="520"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="500" id="oLj-rK-zBU"/>
+                        <constraint firstAttribute="height" constant="520" id="oLj-rK-zBU"/>
                     </constraints>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kBT-bs-RC8">
                         <size key="itemSize" width="300" height="450"/>
@@ -34,7 +34,7 @@
                     </collectionViewFlowLayout>
                 </collectionView>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cinemasets" translatesAutoresizingMaskIntoConstraints="NO" id="byB-9Q-13f">
-                    <rect key="frame" x="0.0" y="623" width="414" height="273"/>
+                    <rect key="frame" x="0.0" y="633" width="414" height="263"/>
                 </imageView>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rollingcin-removebg" translatesAutoresizingMaskIntoConstraints="NO" id="HV2-FC-g31">
                     <rect key="frame" x="157" y="44" width="100" height="100"/>
@@ -53,7 +53,7 @@
                 <constraint firstItem="HV2-FC-g31" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Q1v-R6-Qh9"/>
                 <constraint firstItem="jpT-r3-WmN" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="SWG-Ps-oIc"/>
                 <constraint firstItem="HV2-FC-g31" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Xz3-MT-8C6"/>
-                <constraint firstItem="jpT-r3-WmN" firstAttribute="top" secondItem="HV2-FC-g31" secondAttribute="bottom" constant="59" id="YkR-75-WRk"/>
+                <constraint firstItem="jpT-r3-WmN" firstAttribute="top" secondItem="HV2-FC-g31" secondAttribute="bottom" constant="49" id="YkR-75-WRk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="byB-9Q-13f" secondAttribute="trailing" id="lXE-XT-ktP"/>
                 <constraint firstItem="jpT-r3-WmN" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="rRW-6v-sMm"/>
                 <constraint firstItem="byB-9Q-13f" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="wJm-Sd-vvD"/>

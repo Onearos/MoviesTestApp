@@ -9,26 +9,20 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="MoviesListCell" customModule="MoviesTestApp" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="300" height="450"/>
+            <rect key="frame" x="0.0" y="0.0" width="300" height="430"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="300" height="450"/>
+                <rect key="frame" x="0.0" y="0.0" width="300" height="430"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6q3-RN-4em">
-                        <rect key="frame" x="129" y="214.5" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DXe-9z-7M2">
-                        <rect key="frame" x="0.0" y="0.0" width="300" height="385"/>
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="365"/>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7u-Zg-b5o">
-                        <rect key="frame" x="0.0" y="385" width="300" height="65"/>
+                        <rect key="frame" x="0.0" y="365" width="300" height="65"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Martian movies is movie syuf" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUz-Qh-nmk">
-                                <rect key="frame" x="20" y="12" width="260" height="41"/>
+                                <rect key="frame" x="20" y="0.0" width="260" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="uEh-9i-Um2"/>
                                 </constraints>
@@ -40,7 +34,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="65" id="9uQ-DH-IIv"/>
+                            <constraint firstAttribute="bottom" secondItem="FUz-Qh-nmk" secondAttribute="bottom" id="AF1-n6-ceo"/>
                             <constraint firstItem="FUz-Qh-nmk" firstAttribute="centerY" secondItem="m7u-Zg-b5o" secondAttribute="centerY" id="eEs-bR-KJR"/>
+                            <constraint firstItem="FUz-Qh-nmk" firstAttribute="top" secondItem="m7u-Zg-b5o" secondAttribute="top" id="fVx-Zo-Ykf"/>
                             <constraint firstItem="FUz-Qh-nmk" firstAttribute="centerX" secondItem="m7u-Zg-b5o" secondAttribute="centerX" id="oee-wW-ENU"/>
                         </constraints>
                     </view>
@@ -54,9 +50,7 @@
                 <constraint firstItem="DXe-9z-7M2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="K5E-xd-Ecw"/>
                 <constraint firstItem="m7u-Zg-b5o" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MAF-Tn-S8H"/>
                 <constraint firstItem="m7u-Zg-b5o" firstAttribute="top" secondItem="DXe-9z-7M2" secondAttribute="bottom" id="Nn4-U9-jZp"/>
-                <constraint firstItem="6q3-RN-4em" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="fs2-ov-RzU"/>
                 <constraint firstAttribute="trailing" secondItem="DXe-9z-7M2" secondAttribute="trailing" id="moI-Pf-xVY"/>
-                <constraint firstItem="6q3-RN-4em" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="snf-7o-L54"/>
             </constraints>
             <connections>
                 <outlet property="PosterImg" destination="DXe-9z-7M2" id="rgy-CW-Uf7"/>
